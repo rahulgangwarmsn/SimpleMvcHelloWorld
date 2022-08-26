@@ -1,7 +1,0 @@
-tasks:
-  - init: |
-      sudo apt install wget
-      wget https://dot.net/v1/dotnet-install.sh
-      chmod +x dotnet-install.sh
-      ./dotnet-install.sh -c Current
-      export PATH="$PATH:/home/$USER/.dotnet/"
