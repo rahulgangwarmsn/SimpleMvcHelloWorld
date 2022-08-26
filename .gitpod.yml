@@ -7,3 +7,5 @@ tasks:
       chmod +x dotnet-install.sh
       ./dotnet-install.sh -c Current
       export PATH="$PATH:/home/$USER/.dotnet/"
+      dotnet build
+      dotnet /workspace/SimpleMvcHelloWorld/SimpleMvcHelloWorld/bin/Debug/net6.0/SimpleMvcHelloWorld.dll
